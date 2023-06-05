@@ -6,7 +6,7 @@ A conversational agent with an inner monologue, using OpenAI's Large Language Mo
 
 Test it online on StackBlitz: https://stackblitz.com/github/marmelab/molly/tree/main (you will need an OpenAI API Key). 
 
-## Requirement
+## Requirements
 
 Molly is a Single-Page-Application that runs in the browser. It requires no server, but calls the OpenAI completion API. This means that you need an [OpenAI API key](https://openai.com/blog/openai-api) to use Molly. 
 
