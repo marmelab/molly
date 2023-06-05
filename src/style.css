@@ -1,0 +1,64 @@
+body {
+  font-family: Helvetica, 'Trebuchet MS', Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.discussionContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.discussionContainer form {
+  padding: 10px;
+}
+
+ul.discussion {
+  list-style-type: none;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+ul.discussion li {
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+ul.discussion li > span {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+li.interlocutor {
+  text-align: left;
+}
+li.interlocutor span {
+  background-color: #857db1;
+}
+
+li.molly {
+  text-align: right;
+}
+li.molly span {
+  background-color: #d4ad6a;
+}
+
+li.molly_to_herself {
+  text-align: center;
+}
+li.molly_to_herself span {
+  background-color: #fffcaa;
+  color: gray;
+}
