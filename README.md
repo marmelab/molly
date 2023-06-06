@@ -1,6 +1,6 @@
 # Molly
 
-A conversational agent with an inner monologue, using OpenAI's Large Language Model (LLM). This experiment gives the illusion of artificial consciousness, and raises questions about the nature of consciousness.
+A conversational agent with an inner monologue, using OpenAI's Large Language Model (LLM). This experiment gives the illusion of artificial consciousness, and raises questions about the nature of consciousness. [Lean More](https://marmelab.com/blog/2023/06/06/artificial-consciousness.html)
 
 In the following example, Molly's thoughts are in yellow, and her replies are in brown.
 
