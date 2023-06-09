@@ -19,6 +19,12 @@ export function Sentence({ text }) {
         <span>{text.substr(19)}</span>
       </li>
     );
+  } else if (text.startsWith('Molly (to myself)')) {
+    return (
+      <li className="molly_to_herself">
+        <span>{text.substr(18)}</span>
+      </li>
+    );
   } else {
     return (
       <li className="molly">
